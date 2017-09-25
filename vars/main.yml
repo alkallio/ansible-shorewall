@@ -111,7 +111,7 @@ shorewall_conf_base:
   implicit_continue: "No"
   inline_matches: "Yes"
   ipset_warnings: "Yes"
-  ip_forwarding: "Keep"
+  ip_forwarding: "On"
   keep_rt_tables: "No"
   load_helpers_only: "Yes"
   maclist_table: "filter"
